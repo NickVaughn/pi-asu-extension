@@ -1,9 +1,16 @@
 {
   "name": "@nvaughn/pi-asu-provider",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ASU provider extension for pi coding agent",
   "main": "asu-provider.ts",
   "types": "asu-provider.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickVaughn/pi-asu-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickVaughn/pi-asu-provider#readme"
+  },
   "keywords": [
     "pi",
     "coding-agent",
