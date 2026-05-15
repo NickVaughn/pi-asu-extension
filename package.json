@@ -1,0 +1,24 @@
+{
+  "name": "@nvaughn/pi-asu-provider",
+  "version": "1.0.1",
+  "description": "ASU provider extension for pi coding agent",
+  "main": "asu-provider.ts",
+  "types": "asu-provider.ts",
+  "keywords": [
+    "pi",
+    "coding-agent",
+    "extension",
+    "asu",
+    "provider"
+  ],
+  "author": "nvaughn",
+  "license": "MIT",
+  "pi": {
+    "extension": {
+      "main": "asu-provider.ts"
+    }
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^0.74.0"
+  }
+}
