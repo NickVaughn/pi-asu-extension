@@ -1,17 +1,19 @@
 {
   "name": "@nvaughn/pi-asu-provider",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "ASU provider extension for pi coding agent",
-  "main": "asu-provider.ts",
-  "types": "asu-provider.ts",
+  "main": "index.ts",
+  "types": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NickVaughn/pi-asu-provider.git"
+    "url": "git+https://github.com/nvaughn/pi-asu-provider.git"
   },
   "bugs": {
-    "url": "https://github.com/NickVaughn/pi-asu-provider#readme"
+    "url": "https://github.com/nvaughn/pi-asu-provider/issues"
   },
+  "homepage": "https://github.com/nvaughn/pi-asu-provider#readme",
   "keywords": [
+    "pi-package",
     "pi",
     "coding-agent",
     "extension",
@@ -21,11 +23,11 @@
   "author": "nvaughn",
   "license": "MIT",
   "pi": {
-    "extension": {
-      "main": "asu-provider.ts"
-    }
+    "extensions": [
+      "./index.ts"
+    ]
   },
-  "dependencies": {
-    "@earendil-works/pi-coding-agent": "^0.74.0"
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
   }
 }
